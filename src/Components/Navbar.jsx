@@ -17,7 +17,7 @@ export default function Navbar() {
             <li>shop</li>
             <li>Cart</li>
             <li><FontAwesomeIcon icon={faUser} /></li>
-            <li><FontAwesomeIcon icon={faShoppingCart} /></li>
+            <li><FontAwesomeIcon icon={faShoppingCart} /><span className='position-relative bg-dark text-light p-1 rounded-circle bottom-50 text-xsm'>0</span></li>
           </ul>
         </div>
     </div>
